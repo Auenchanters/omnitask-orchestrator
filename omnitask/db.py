@@ -1,7 +1,8 @@
 import sqlite3
 import os
 
-DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "omnitask.db")
+DB_PATH = "/tmp/omnitask.db"
+
 
 
 def get_connection() -> sqlite3.Connection:
